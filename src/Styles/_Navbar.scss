@@ -1,0 +1,157 @@
+%left {
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 40px;
+}
+%left2 {
+	position: absolute;
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 40px;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: center;
+	align-content: center;
+}
+
+.newNav {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.connectButton {
+	border-radius: 12px;
+	border-width: 0px;
+	color: white;
+	padding: 10px 13px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: rgb(235, 19, 19);
+}
+.connectButton:hover {
+	background-color: rgb(179, 8, 8);
+}
+
+.connectButton:active {
+	transform: translateY(1px);
+}
+
+.button2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-left: 210px;
+}
+.connectButton2 {
+	border-radius: 12px;
+	border-width: 0px;
+	color: white;
+	padding: 10px 13px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: rgb(235, 19, 19);
+}
+
+.connectButton2:hover {
+	background-color: rgb(179, 8, 8);
+}
+
+.connectButton2:active {
+	transform: translateY(1px);
+}
+
+.navbarLeft2 {
+	position: absolute;
+}
+.home {
+	@extend %left;
+}
+
+.home:hover {
+	color: rgb(235, 19, 19);
+}
+
+.about {
+	@extend %left;
+}
+
+.about:hover {
+	color: rgb(235, 19, 19);
+}
+.home2 {
+	@extend %left2;
+	margin-top: 60px;
+}
+
+.home2:hover {
+	color: rgb(235, 19, 19);
+}
+
+.about2 {
+	@extend %left2;
+	margin-top: 110px;
+}
+
+.about2:hover {
+	color: rgb(235, 19, 19);
+}
+
+.toggle {
+	position: absolute;
+	margin-left: 40px;
+	visibility: hidden;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.bars div {
+	width: 35px;
+	height: 5px;
+	background-color: rgb(255, 255, 255);
+	margin: 6px 0;
+}
+
+.x {
+	color: white;
+	font-size: 40px;
+	font-family: arial;
+}
+
+.x:hover {
+	color: rgb(235, 19, 19);
+}
+@media (max-width: 600px) {
+	.navbarLeft {
+		visibility: hidden;
+		opacity: 0;
+	}
+
+	.toggle {
+		visibility: visible;
+		opacity: 1;
+		transition: visibility 0s linear 0s, opacity 300ms;
+	}
+}
+
+#on {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+#off {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s linear 300ms, opacity 300ms;
+}

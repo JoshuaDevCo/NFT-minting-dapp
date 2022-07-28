@@ -1,0 +1,55 @@
+%flexRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+}
+
+.aboutInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	margin-top: 200px;
+}
+
+.socials {
+	@extend %flexRow;
+	margin-top: 50px;
+}
+
+.images {
+	@extend %flexRow;
+	margin-top: 100px;
+}
+
+.space {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.spaceBottom {
+	margin-bottom: 150px;
+}
+
+.click {
+	cursor: pointer;
+}
+
+.details1 {
+	text-align: center;
+	font-size: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.details2 {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+}
