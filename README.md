@@ -1,6 +1,5 @@
 # Mint site
-
-A dapp to mint erc721 tokens:\
+A dapp to mint 16 randomly generated erc721 tokens:\
 https://emojis-mint.netlify.app/
 
 ## How to mint?
