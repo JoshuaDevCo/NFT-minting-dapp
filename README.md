@@ -5,3 +5,7 @@ https://emojis-mint.netlify.app/
 ## How to mint?
 
 Use metamask and connect to the rinkeby testnet to mint an Emoji!
+
+## Stack:
+
+Solidity,Ethers,React,Javascript,SCSS
