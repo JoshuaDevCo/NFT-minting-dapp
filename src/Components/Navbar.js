@@ -18,11 +18,11 @@ export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const connectNetwork = async () => {
-		const chainId = 4; //rinkeby
+		const chainId = 5; //goerli
 		if (window.ethereum.networkVersion !== chainId) {
 			await window.ethereum.request({
 				method: "wallet_switchEthereumChain",
-				params: [{ chainId: "0x4" }],
+				params: [{ chainId: "0x5" }],
 			});
 
 			userAddress();

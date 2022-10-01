@@ -48,7 +48,7 @@ export default function Minter() {
 				<div className="setBg">
 					<div className="background">
 						<div className="notConnected">
-							You must connect your wallet and connect to the rinkeby network to
+							You must connect your wallet and connect to the Goerli network to
 							mint
 						</div>
 					</div>

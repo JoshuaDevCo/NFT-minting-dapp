@@ -9,7 +9,7 @@ export default function Info() {
 		<div>
 			<div className="aboutInfo">
 				<div className="details1">
-					16 Emojis created with the ERC721 standard, living on the Rinkeby
+					16 Emojis created with the ERC721 standard, living on the Goerli
 					blockchain!
 				</div>
 				<div className="details2">Check us out on OpenSea!</div>

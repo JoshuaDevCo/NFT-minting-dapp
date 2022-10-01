@@ -524,7 +524,7 @@ export const ABI = [
 	},
 ];
 
-export const contractAddress = "0x23914e1f1eAd7A4582796aEcb08fFDC004ffaA5f";
+export const contractAddress = "0x73BbfD8F83022eB4701ADb63705130cA65528fFd";
 
 export let provider = window.ethereum
 	? new ethers.providers.Web3Provider(window.ethereum)
