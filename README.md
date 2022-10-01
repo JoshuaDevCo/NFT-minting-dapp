@@ -4,7 +4,7 @@ https://emojis-mint.netlify.app/
 
 ## How to mint?
 
-Use metamask and connect to the rinkeby testnet to mint an Emoji!
+Use metamask and connect to the goerli testnet to mint an Emoji!
 
 ## Stack:
 
